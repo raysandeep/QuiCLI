@@ -1,0 +1,33 @@
+{
+  "name": "quicli",
+  "version": "1.0.0",
+  "description": "A CLI that facilitates single command deploys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "python",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js-yaml": "^4.1.0",
+    "json-to-env": "0.0.10",
+    "json2yaml": "^1.1.0",
+    "mongoose": "^5.12.6",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2"
+  }
+}
